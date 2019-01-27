@@ -1,0 +1,118 @@
+@media all and (max-width: $small){
+
+// header responsive kinda
+
+	header{
+		.navigation_bar{
+			flex-direction: column;
+			text-align: center;
+			display: none;
+		}
+
+		a[href="#search"]{
+			display: none;
+		}
+
+		.logo{
+			padding: 10px 10px;
+		}
+
+		.hidden{
+			display: block;
+		}
+
+		.active-menu{
+			display: block;
+		}
+	}
+
+	// portfolio responsive
+
+	.portfolio{
+		ul{
+			flex-direction: column;
+			justify-content: spaces-around;
+
+			li{
+				margin: 5px 0;
+			}
+		}
+
+		.portfolio_item{
+			width: calc(50% - 20px);
+		}
+	}
+	// services responsive
+
+	.services-wrap{
+
+		flex-wrap: wrap;
+
+		.services-col{
+			width: calc(50% - 8px);
+		}	
+	}
+
+	// prices section responsive
+	.pricing_tables{
+		.prices_section1{
+			flex-wrap: wrap;
+			justify-content: center;
+
+			.prices_block{
+				width: calc(60% - 30px);
+				margin-top: 10px;
+			}	
+		}
+
+		.prices_section2{
+			flex-wrap: wrap;
+			justify-content: center;
+
+			.prices_block{
+				width: calc(45% - 30px);
+				margin: 10px;
+			}	
+		}
+	}
+
+	// staff responsive
+
+	.about-us{
+		.staff-positioning{
+			flex-wrap: wrap;
+			justify-content: center;
+
+		}
+
+		.staff{
+			width: 70%;
+		}
+		// skill bars responsive
+		.skill-bars{
+			flex-wrap: wrap;
+			justify-content: center;
+
+			.skill-bar{
+				padding: 10px 10px;				
+			}
+		}
+	
+	}
+
+
+	// contacts responsive
+
+	.contacts{
+		flex-direction: column;
+	}
+
+
+
+
+
+
+
+	
+  
+}

@@ -1,0 +1,56 @@
+Embed font html
+
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:300,400,500,700&amp;subset=latin-ext" rel="stylesheet">
+
+CSS fonts
+
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+
+
+Main logo font:
+	Roboto Medium
+	Size: 24px
+	Gap between lines: 20px
+	#ffffff
+Navigation font:
+	Roboto Regular
+	Size: 16px
+	Gap between lines: 20px
+	#ffffff
+Headers font:
+	Roboto light
+	Size: 36px
+	Gap between lines: 20px
+	#ffffff
+Purchase/Follow button font:
+	Roboto Light
+	Size: 18px
+	Gap between lines: 20px
+	#ffffff
+Portfolio/Submit button font:
+	Roboto Medium
+	Size: 14px
+	Gap between lines: 20px
+	#ffffff
+Services names:
+	OpenSans Bold
+	Size: 16px
+About us/More info/Contacts text color
+	#989898
+
+
+
+Colors:
+
+	Background: #282a2e
+	Icons background circle    : #313338
+	Icons linear gradient: from: #aaca29
+			       to:   #1bbc9d
+			       to bottom right
+	Secondary background:  #313338
+	Price horizontal line, blueish button: #1bbc9d
+	Green buttons: #b0cd3b
+	
+1. Susirink ir kompresuot screen-width paveikslelius

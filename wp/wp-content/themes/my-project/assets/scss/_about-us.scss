@@ -1,0 +1,70 @@
+/* About us staff description starts */
+
+.about-us{
+
+	.staff{
+		width: calc(25% - 20px);
+		margin-top: 50px;
+	}
+
+	.staff-positioning{
+		align-items: flex-start;
+	}
+
+	img{
+		width: 100%;
+	}
+
+	h5{
+		font-size: 1.5rem;
+		text-align: center;
+		margin: 10px 0;
+		font-weight: 500;
+	}
+
+	h6{
+		font-size: 1.25rem;
+		text-align: center;
+		margin: 10px 0;
+		font-weight: 300;
+	}
+
+	.desc{
+		text-align: center;
+		color: $graytext;
+		line-height: 1.5em;
+	}
+
+}
+
+/* About us staff description ends */
+
+/* Our skills text */
+
+.about-us{
+	h3{
+		text-align: center;
+		margin: 0 auto;
+		margin-top: 48px;
+		position: relative;
+		border-bottom: 3px solid $graytext; 
+   		line-height: 0.1em;
+   		margin-bottom: 50px;
+	
+		span{
+			background: $darkblue; 
+	    	padding:0 10px;
+		}
+	}
+}
+
+/* our skills text end */
+
+.skill-text{
+	padding-top: 10px;
+	text-align: center;
+}
+
+.c100{
+	margin: auto;
+}

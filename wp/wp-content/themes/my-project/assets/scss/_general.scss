@@ -1,0 +1,50 @@
+// setting screen with limit//
+/* general rules */
+.container{
+	max-width: 1600px;
+	margin: 0 auto; 
+}
+
+// enabling flex//
+.flex-container{   
+	
+	display: flex;
+}
+
+.flex-align{
+	align-items: center;
+}
+
+// bg color//
+body{
+
+	background-color: $darkblue;
+	color: $white;
+	font-family: $Roboto;
+}
+
+// styling all links//
+a{
+	text-decoration: none;
+	font-family: $Roboto;
+	color: $white;
+}
+
+
+
+
+h2{
+	text-align: center;
+	font-size: 2.25rem;
+	font-weight: 300;
+	font-family: $Roboto;
+	margin:0;
+	padding-top: 60px;
+	padding-bottom: 20px;
+}
+
+.hidden{
+	display: none;
+}
+
+/* general rules end */

@@ -1,0 +1,22 @@
+/* Default narsykles parametru resetas*/
+
+*,
+*::before,
+*::after{
+
+	box-sizing: border-box;
+}
+
+body{
+
+	margin:0;
+}
+
+li{
+
+	list-style-type: none;
+}
+
+ul{
+	padding-inline-start: 0;
+}

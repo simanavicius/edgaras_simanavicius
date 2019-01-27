@@ -1,0 +1,106 @@
+/* pricing tables section */
+
+.pricing_tables{
+	a{
+		padding: 10px 30px;
+		margin-bottom: 15px;
+		border-radius: 5px;
+		display: inline-block;
+		color: $graytext;
+		background-color: $greenish;
+		box-shadow: 0 4px $shadowgreen;
+		color: $white;
+	}
+
+	li{
+			margin-top: 15px;
+	}
+
+	.prices_section1{
+		color: $graytext;
+
+		.prices_block{
+			width: calc(33% - 30px);
+			background-color: $lighterblue;
+			text-align: center;
+			border-radius: 10px;
+		}
+
+		.prices_block:nth-child(2){
+			background-color: $white;
+		}	
+	}
+
+	.price{
+		background-color: $blueish;
+		padding: 15px 0 15px 0;
+		box-shadow: 0 4px $shadowblue;
+		color: $white;
+	}
+
+	.prices_section2{
+		color: $graytext;
+		margin-top: 60px;
+
+		.prices_block{
+			width: calc(25% - 30px);
+			background-color: $white;
+			text-align: center;
+			border-radius: 10px;
+		}
+
+	}
+
+	h5{
+		font-size: 1.5rem;
+		font-weight: 300;
+	}
+}
+
+/* pricing section end */
+
+/* clients about us */
+
+.clients_comment_container{
+	h4{
+		text-align: center;
+		text-transform: uppercase;
+		margin-top: 100px;
+		border-bottom: 3px solid $graytext; 
+   		line-height: 0.1em;
+	}
+	
+
+	p{
+		text-align: center;
+		max-width: 400px;
+		margin: 0 auto;
+		color: $graytext;
+		margin-top: 48px;
+		position: relative;
+
+
+		&:before{
+			content: '"';
+			font-size: 15rem;
+			position: absolute;
+			left: -100px;
+			top: -50px;
+		}
+
+		&:after{
+		content: '"';
+		font-size: 15rem;
+		position: absolute;
+		left: 425px;
+		top: -50px;
+
+		}
+
+	}
+
+	span{
+		background: $darkblue; 
+    	padding:0 10px;
+	}
+}
